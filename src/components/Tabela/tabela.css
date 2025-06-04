@@ -1,0 +1,39 @@
+table{
+    margin: 0 auto;
+    text-align:center;
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+.fundo-container{
+    background-color: #FDFAF6;
+}
+th, td {
+  padding: 8px; /* Espaçamento interno das células */
+  text-align: left; /* Alinhamento do texto à esquerda */
+  border-bottom: 1px solid #ddd; /* Borda inferior para cada célula */
+}
+
+th {
+  background-color: #4CAF50; /* Cor de fundo para os cabeçalhos */
+  color: white; /* Cor do texto nos cabeçalhos */
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Cor de fundo para linhas pares */
+}
+
+tr:hover {
+  background-color: #ddd; /* Cor de fundo quando o mouse passa por cima */
+}
+
+table, th, td {
+  border: 1px solid #ccc; /* Borda para a tabela e todas as células */
+}
+
+@media screen and (max-width: 767px){
+    table{
+        width: 80%;
+    }
+}
+
