@@ -35,10 +35,13 @@ header{
     border-radius: 4px;
     background-color: #99BC85;
     color: #E4EFE7;
-    margin-bottom: 20px;
-
-    
+    margin-bottom: 20px;    
 }
+
+button:hover{
+    background-color: #4a5e3e;
+}
+
 .toggleResultado{
     padding:20px 0;
     margin-bottom: 20px;
